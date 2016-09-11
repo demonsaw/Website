@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<versions>
+  <gloversion>2.7.2</gloversion>
+  <winversion>2.7.2</winversion>
+  <ubuversion>2.7.2</ubuversion>
+  <debversion>2.7.2</debversion>
+  <osxversion>2.7.1</osxversion>
+  <rpiversion>2.6.2</rpiversion>
+  <andversion>2.7.2</andversion>
+</versions>

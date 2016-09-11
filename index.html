@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Expires" content="Fri, 01 Jan 2020 12:12:12 GMT">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="robots" content="all">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="keywords" content="demonsaw, Eijah, secure, anonymous, free, everywhere, file, sharing, encryption, safe, hackers, worldwide, united, cool, software, def con, x-platform, download, believe in the right to share, share">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Eric J. Anderson (Eijah)">
+  <meta name="description" content="demonsaw - A secure, anonymous, free, and decentralized x-platform information-sharing application with end-to-end encryption and no client P2P. No registration or installation required, just download and run!">
+  <title>demonsaw - Believe in the Right to Share</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="icon" href="img/favicon_black.png">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+</head>
+<body>
+  <div id="navbar" class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="/"><p class="navbar-brand"></p></a>
+        <a class="icon sc" data-toggle="collapse" data-target="#menu" href="#"><i class="fa fa-align-justify pull-right"></i></a>
+        <a class="icon sc" data-toggle="collapse" data-target="#heart" href="#"><i class="fa fa-heart pull-right"></i></a>
+        <noscript>
+          <label class="fa fa-align-justify pull-right icon" for="toggle-01"></label>
+          <label class="fa fa-heart pull-right icon" for="toggle-00"></label>
+        </noscript>
+        <div class="row masonry-grid">
+          <div class="funnyBox item sc fc">
+            <a href="#android" class="filter" data-filter="download" class="image">
+              <img src="img/android.jpg" alt="Android">
+            </a>
+          </div>
+          <div class="funnyBox item sc">
+            <a href="#raspbian" class="filter" data-filter="download" class="image">
+              <img src="img/rpi.jpg" alt="RPi">
+            </a>
+          </div>
+          <div class="funnyBox item sc">
+            <a href="#debian" class="filter" data-filter="download" class="image">
+              <img src="img/debian.jpg" alt="Debian">
+            </a>
+          </div>
+          <div class="funnyBox item sc">
+            <a href="#ubuntu" class="filter" data-filter="download" class="image">
+              <img src="img/ubuntu.jpg" alt="Ubuntu">
+            </a>
+          </div>
+          <div class="funnyBox item sc">
+            <a href="#osx" class="filter" data-filter="download" class="image">
+              <img src="img/osx.jpg" alt="OS X">
+            </a>
+          </div>
+          <div class="funnyBox item sc winX">
+            <a href="#windows" class="filter" data-filter="download" class="image">
+              <img src="img/windows.jpg" alt="Windows">
+            </a>
+          </div>
+          <noscript>
+            <style>.sc{display:none}</style>
+            <div class="funnyBox item fc">
+              <label for="toggle-2" class="filter" data-filter="download" class="image">
+                <img src="img/android.jpg" alt="Android">
+              </label>
+            </div>
+            <div class="funnyBox item">
+              <label for="toggle-2" class="filter" data-filter="download" class="image">
+                <img src="img/rpi.jpg" alt="RPi">
+              </label>
+            </div>
+            <div class="funnyBox item">
+              <label for="toggle-2" class="filter" data-filter="download" class="image">
+                <img src="img/debian.jpg" alt="Debian">
+              </label>
+            </div>
+            <div class="funnyBox item">
+              <label for="toggle-2" class="filter" data-filter="download" class="image">
+                <img src="img/ubuntu.jpg" alt="Ubuntu">
+              </label>
+            </div>
+            <div class="funnyBox item">
+              <label for="toggle-2" class="filter" data-filter="download" class="image">
+                <img src="img/osx.jpg" alt="OS X">
+              </label>
+            </div>
+            <div class="funnyBox item winX">
+              <label for="toggle-2" class="filter" data-filter="download" class="image">
+                <img src="img/windows.jpg" alt="Windows">
+              </label>
+            </div>
+          </noscript>
+        </div>
+      </div>
+      <input type="radio" name="nav" id="toggle-00"></input>
+      <div id="heart" class="collapse dropdown">
+        <div class="arrow-up" style="margin-right:70px;"></div>
+        <ul class="menu">
+          <li class="nav-item"><a href="https://github.com/eijah/demonsaw" target="_blank">Github</a></li>
+          <li class="nav-item"><a href="https://plus.google.com/116739212544198980445" target="_blank">Google+</a></li>
+          <li class="nav-item"><a href="https://www.linkedin.com/pub/eijah-demonsaw/b7/577/8a8" target="_blank">LinkedIn</a></li>
+          <li class="nav-item"><a href="https://www.reddit.com/r/demonsaw" target="_blank">Reddit</a></li>
+          <li class="nav-item"><a href="https://twitter.com/demon_saw" target="_blank">Twitter</a></li>
+        </ul>
+      </div>
+      <input type="radio" name="nav" id="toggle-01"></input>
+      <div id="menu" class="collapse dropdown">
+        <div class="arrow-up" style="margin-right:5px;"></div>
+        <ul class="menu">
+          <li class="nav-item"><a href="https://github.com/Demonsaw/demonsaw/issues" target="_blank">Bugs & Requests</a></li>
+          <li class="nav-item"><a href="https://docs.demonsaw.com/" target="_blank">Documentation</a></li>
+          <li class="nav-item"><a href="https://www.reddit.com/r/demonsaw" target="_blank">Subreddit</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="site-wrap">
+    <div id="home" class="section welcome">
+      <div class="container">
+        <div class="content">
+          <div class="controls">
+            <a href="#" class="filter sc" data-filter="demonsaw">Home</a>
+            <a href="#" class="filter sc" data-filter="download">Download</a>
+            <a href="#" class="filter sc" data-filter="about">About</a>
+            <a href="#" class="filter sc" data-filter="feedback">Feedback</a>
+            <a href="#" class="filter sc" data-filter="help">Help</a>
+            <noscript>
+              <style>.gallery.row .demonsaw.mix {display:inline-block;opacity:1} .filter.sc{display:none}</style>
+              <label for="toggle-1" class="filter" data-filter="demonsaw">Home</label>
+              <label for="toggle-2" class="filter" data-filter="download">Download</label>
+              <label for="toggle-3" class="filter" data-filter="about">About</label>
+              <label for="toggle-4" class="filter" data-filter="feedback">Feedback</label>
+              <label for="toggle-5" class="filter" data-filter="help">Help</label>
+            </noscript>
+            <span class="stretch"></span>
+          </div>
+        </div>
+        <div class="gallery row">
+          <input type="radio" name="menu" id="toggle-1"></input>
+          <input type="radio" name="menu" id="toggle-2"></input>
+          <input type="radio" name="menu" id="toggle-3"></input>
+          <input type="radio" name="menu" id="toggle-4"></input>
+          <input type="radio" name="menu" id="toggle-5"></input>
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 mix demonsaw" style="margin-bottom:0px;">
+              <div class="row">
+                <div class="col-md-5 col-sm-5 col-xs-12 galText">
+                  <h1>Introduction</h1>
+                  <p>Demonsaw is a secure and anonymous information sharing application that makes security simple and gives you back control of your data.</p>
+                  <p>Chat, message, and share files without fear or consequence.</p>
+                  <p>Host your own private routers or join public networks like <a href="https://www.demonbucket.com" target="_blank"><b>DemonBucket</b></a></p>
+                  <p>Check out the intro tutorial and <a href="#" class="filter" data-filter="help"><b>Help</b></a> page for more information.</p>
+                  <p>Welcome to the Future of Information Sharing.</p>
+                </div>
+                <div class="col-md-7 col-sm-7 col-xs-12 galImg pull-right">
+                  <a href="https://www.youtube-nocookie.com/embed/kfyokykPEsE?rel=0&showinfo=0&html5=1">
+                    <img class="right slid" src="img/introvid.jpg" width="500" />
+                    <!-- span class="overlay"><span class="valign"></span><i style="left:45%" class="fa fa-youtube-play"></i></span -->
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-5 col-sm-5 col-xs-12 pull-right galText">
+                  <h1>Secure</h1>
+                  <p>Fed up with diminishing privacy rights? Demonsaw is 100% <a href="https://en.wikipedia.org/wiki/Cybersecurity_Information_Sharing_Act" target="_blank"><b>CISA</b></a>-proof.</p>
+                  <p>Demonsaw uses multiple layers of asymmetric and symmetric encryption. All keys are created at runtime and never shared.</p>
+                  <p>Social Crypto makes security easy by leveraging shared knowledge (websites and files) to derive strong encryption keys.</p>
+                  <p>Trust yourself and to hell with the rest.</p>
+                </div>
+                <div class="col-md-7 col-sm-7 col-xs-12 galImg pull-left">
+                  <a href="img/secure.jpg" data-lightbox="img" data-title="The group tab in demonsaw, displaying several types of encryption.">
+                    <img class="right slid" src="img/secure.jpg" width="500" />
+                    <span class="overlay"><span class="valign"></span><i style="left:45%" class="fa fa-expand"></i></span>
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-5 col-sm-5 col-xs-12 galText">
+                  <h1>Anonymous</h1>
+                  <p>No logins, no passwords, and no registrations.</p>
+                  <p>Demonsaw is a fully decentralized, mesh-based network that doesn't use P2P. Your IP address is safe.</p>
+                  <p>Demonsaw looks like normal web traffic. You can use demonsaw anywhere without being blocked or monitored by anyone.</p>
+                  <p>Governments, corporations, and ISPs will never know what you're communicating or sharing.</p>
+                </div>
+                <div class="col-md-7 col-sm-7 col-xs-12 pull-right galImg">
+                  <a href="img/anonymous.jpg" data-lightbox="img" data-title="The browse tab in demonsaw, displaying users' nicknames (blurred out)">
+                    <img class="left slid" src="img/anonymous.jpg" width="500" />
+                    <span class="overlay"><span class="valign"></span><i style="left:45%" class="fa fa-expand"></i></span>
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-5 col-sm-5 col-xs-12 pull-right galText">
+                  <h1>Free</h1>
+                  <p>Free community edition.</p>
+                  <p>No ads, no installs, no malware, no honeypots, no bundled software, no logging, no tracking, no lies, and no bullshit.</p>
+                  <p>Demonsaw is fully self-funded by its founder.</p>
+                  <p>You're free to express yourself.</p>
+                </div>
+                <div class="col-md-7 col-sm-7 col-xs-12 galImg pull-left">
+                  <a href="img/free.jpg" data-lightbox="img" data-title="The chat tab in demonsaw, with a modified CSS file to change the GUI.">
+                    <img class="right slid" src="img/free.jpg" width="500" />
+                    <span class="overlay"><span class="valign"></span><i style="left:45%" class="fa fa-expand"></i></span>
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-5 col-sm-5 col-xs-12 galText">
+                  <h1>Everywhere</h1>
+                  <p>Demonsaw is available in 32 and 64 bit versions.</p>
+                  <p>Run demonsaw clients and routers in a graphical or command-line interface.</p>
+                  <p>Demonsaw has been tested on Windows 7, Windows 8, Windows 10, OSX Yosemite, Ubuntu 14.04, Debian 8, CentOS, Arch, Raspbian, and Android.</p>
+				  <p>It's a new dawn. It's a new day. It's a new life for us. And we're feeling good.</p>
+                  <p>Believe in the Right to Share</p>
+                </div>
+                <div class="col-md-7 col-sm-7 col-xs-12 pull-right galImg">
+                  <a href="img/everywhere.jpg" data-lightbox="img" data-title="The command line router run in Kali Linux 2.0, showing active connections and transfers.">
+                    <img class="left slid" src="img/everywhere.jpg" width="500" />
+                    <span class="overlay"><span class="valign"></span><i style="left:45%" class="fa fa-expand"></i></span>
+                  </a>
+                </div>
+              </div>
+			  <br>
+              <div style="margin-top:10px;padding-top:10px;border:1px #999 solid;padding-right:10px;padding-bottom:5px;">
+                <img style="width:80px;float:left;position:relative;padding-top:5px;padding-left:10px;padding-right:10px;" src="img/warrantcanary.jpg" alt="Warrant Canary"/><b>August 28, 2016</b></br>As of the date above, Demonsaw has not received any National Security Letters or any orders under the Foreign Intelligence Surveillance Act. Demonsaw does not have any knowledge of any search orders that have been issued or carried out. Demonsaw will update this statement monthly with any changes, the next being on or before <b>September 28, 2016</b>.<br><br>For more information around what inspired this statement check out <a href="https://www.canarywatch.org" target="_blank"><b>Canarywatch</b></a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 mix download">
+              <div class="row masonry-grid">
+                <div class="col-md-2 col-sm-2 col-xs-12 item galDl">
+                  <a href="#windows" class="image">
+                    <img src="img/windows.jpg" alt="Windows">
+                    <span class="overlay"><span class="valign"></span><i class="fa fa-download"></i></span>
+                  </a>
+                  <div class="description">
+                    <h2><a href="#windows">Windows</a></h2>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-12 item galDl">
+                  <a href="#osx" class="image">
+                    <img src="img/osx.jpg" alt="OS X">
+                    <span class="overlay"><span class="valign"></span><i class="fa fa-download"></i></span>
+                  </a>
+                  <div class="description">
+                    <h2><a href="#osx">OS X</a></h2>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-12 item galDl">
+                  <a href="#ubuntu" class="image">
+                    <img src="img/ubuntu.jpg" alt="Ubuntu">
+                    <span class="overlay"><span class="valign"></span><i class="fa fa-download"></i></span>
+                  </a>
+                  <div class="description">
+                    <h2><a href="#ubuntu">Ubuntu</a></h2>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-12 item galDl">
+                  <a href="#debian" class="image">
+                    <img src="img/debian.jpg" alt="Debian">
+                    <span class="overlay"><span class="valign"></span><i class="fa fa-download"></i></span>
+                  </a>
+                  <div class="description">
+                    <h2><a href="#debian">Debian</a></h2>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-12 item galDl">
+                  <a href="#raspbian" class="image">
+                    <img src="img/rpi.jpg" alt="Raspberry Pi Raspbian">
+                    <span class="overlay"><span class="valign"></span><i class="fa fa-download"></i></span>
+                  </a>
+                  <div class="description">
+                    <h2><a href="#raspbian">Raspbian</a></h2>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-12 item galDl">
+                  <a href="#android" class="image">
+                    <img src="img/android.jpg" alt="Android">
+                    <span class="overlay"><span class="valign"></span><i class="fa fa-download"></i></span>
+                  </a>
+                  <div class="description">
+                    <h2><a href="#android">Android</a></h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-sm-12 col-xs-12 galText" style="padding-top: 15px;">
+                <h1 id="windows">Windows</h1>
+                <a name="windows"></a>
+				<div class="downloadStuff">
+                  Version <b>3.0.5</b></span> &nbsp; Compatible with <span style="font-weight:bold">Windows 7 and up</span><br />
+                  <div class="dloadItem">
+                    <p>64-bit: &nbsp; <a href="download/3.0.5/demonsaw_windows_64.zip">Download</a> <br /> SHA1: &nbsp; 14811aef75c4596403449a4bf945401fbec6a908</</p>
+                  </div>
+                </div>				
+                <div class="downloadStuff"><br><br>
+                  Version <span class="winVersion">&lt;Javascript Required&gt;</span> &nbsp; Compatible with <span style="font-weight:bold">Windows 7 and up</span><br />
+                  <div class="dloadItem">
+                    <p>64-bit: &nbsp; <a href="download/2.7.2/demonsaw_windows_64.zip">Download</a> <br /> SHA1: &nbsp; 7e4b6a8e20d6b7d4ca3f25f34ea678bbb5d88adc</p>
+                  </div>
+                  <div class="dloadItem">
+                    <p>32-bit: &nbsp; <a href="download/2.7.2/demonsaw_windows_32.zip">Download</a> <br /> SHA1: &nbsp; ca93de8d622666c9e60fd7abf0b7929c92a5eeed</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-sm-12 col-xs-12 galText">
+                <h1 id="osx">OS X</h1>
+                <a name="osx"></a>
+                <div class="downloadStuff">
+                  Version <span class="osxVersion">&lt;Javascript Required&gt;</span> &nbsp; Compatible with <span style="font-weight:bold">Yosemite and up</span><br />
+                  <div class="dloadItem">
+                    <p>64-bit: &nbsp; <a href="download/2.7.1/demonsaw_osx_64.dmg">Download</a> <br /> SHA1: &nbsp; 2836aa6b2e4f5678fcdf8cb6d5af24c349155991</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-sm-12 col-xs-12 galText">
+                <h1 id="ubuntu">Ubuntu</h1>
+                <a name="ubuntu"></a>
+                <div class="downloadStuff">
+                  Version <span class="ubuVersion">&lt;Javascript Required&gt;</span> &nbsp; Compatible with <span style="font-weight:bold">Ubuntu 14.04 and up</span><br />
+                  <div class="dloadItem">
+                    <p>64-bit: &nbsp; <a href="download/2.7.2/demonsaw_ubuntu_64.tar.gz">Download</a> <br /> SHA1: &nbsp; f97086ac9d9e1fbbd2bd3c7725df630181222e58</p>
+                  </div>
+                  <div class="dloadItem">
+                    <p>32-bit: &nbsp; <a href="download/2.7.2/demonsaw_ubuntu_32.tar.gz">Download</a> <br /> SHA1: &nbsp; 3af7a814238e61e73f8add0ae4ebb153bff091e2</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-sm-12 col-xs-12 galText">
+                <h1 id="debian">Debian</h1>
+                <a name="debian"></a>
+                <div class="downloadStuff">
+                  Version <b>3.0.5</b></span> &nbsp; Compatible with <span style="font-weight:bold">Debian 8.5</span><br />
+                  <div class="dloadItem">
+                    <p>64-bit: &nbsp; <a href="download/3.0.5/demonsaw_debian_64.tar.gz">Download</a> <br /> SHA1: &nbsp; 5f038e5f37a8500b7614c77a3d42cdf446e23258</p>
+                  </div>
+                </div>				
+                <div class="downloadStuff"><br><br>
+                  Version <span class="debVersion">&lt;Javascript Required&gt;</span> &nbsp; Compatible with <span style="font-weight:bold">Deb8 and up</span><br />
+                  <div class="dloadItem">
+                    <p>64-bit: &nbsp; <a href="download/2.7.2/demonsaw_debian_64.tar.gz">Download</a> <br /> SHA1: &nbsp; db975ea6b08f16a85496e573c9f26b20e90f20f9</p>
+                  </div>
+                  <div class="dloadItem">
+                    <p>32-bit: &nbsp; <a href="download/2.7.2/demonsaw_debian_32.tar.gz">Download</a> <br /> SHA1: &nbsp; a550e8bf5fe0478de120607200a2648d4d8758e9</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-sm-12 col-xs-12 galText">
+                <h1 id="raspbian">Raspbian</h1>
+                <a name="raspbian"></a>
+                <div class="downloadStuff">
+                  Version <span class="rpiVersion">&lt;Javascript Required&gt;</span> &nbsp; Compatible with <span style="font-weight:bold">Wheezy and up</span><br />
+                  <div class="dloadItem">
+                    <p>Router: &nbsp; <a href="download/2.6.2/demonsaw_pi.zip">Download</a> <br /> SHA1: &nbsp; 40f250c677abdb49beeae6a01e60c0a4405924cf</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-sm-12 col-xs-12 galText">
+                <h1 id="android">Android</h1>
+                <a name="android"></a>
+				<div class="downloadStuff">
+                  Version <span class="andVersion">&lt;Javascript Required&gt;</span> &nbsp; Compatible with <span style="font-weight:bold">4.4.2 and up</span><br />
+                  <div class="dloadItem">
+                    <p>Client: &nbsp; <a href="download/2.7.2/demonsaw_android.apk">Download</a> <br /> SHA1: &nbsp; 7845d490d05984e1879ef6b9fc48464c7bccc89b</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-sm-12 col-xs-12 galText">
+                <h1 id="info">General Information</h1>
+                <div class="downloadStuff" style="margin-top:-17px">
+                  <div class="dloadItem">
+                    <p>All downloads include <b>version.txt</b>, with an overview of demonsaw's version history.</p>
+                    <p>For Unix-like OSes, there are dependencies that are required in order for demonsaw to run properly. Those dependencies are described in the <b>readme.txt</b> file. There are also work-arounds for some problems that may occour for some users.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 mix help">
+              <div class="tehHelp">
+                <h1 style="margin-top:0">Resources</h1>
+                <div class="row masonry-grid">
+                  <div class="col-md-3 col-sm-3 col-xs-6 item">
+                    <a href="https://docs.demonsaw.com/" target="_blank" class="image">
+                      <img src="img/pnDocs.png" alt="Demonsaw Documentation">
+                      <span class="overlay"><span class="valign"></span><i class="fa fa-link"></i></span>
+                    </a>
+                    <div class="description res">
+                      <h2><a href="https://docs.demonsaw.com/" target="_blank">Documentation</a></h2>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-6 item">
+                    <a href="https://github.com/Demonsaw/demonsaw/issues" target="_blank" class="image">
+                      <img src="img/pnGithub.png" alt="Bug & Issue Tracker">
+                      <span class="overlay"><span class="valign"></span><i class="fa fa-link"></i></span>
+                    </a>
+                    <div class="description res">
+                      <h2><a href="https://github.com/Demonsaw/demonsaw/issues" target="_blank">Issue Tracker</a></h2>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-6 item">
+                    <a href="http://docs.demonsaw.com/FAQ/" target="_blank" class="image">
+                      <img src="img/pnFAQ.png" alt="Frequently Asked Questions">
+                      <span class="overlay"><span class="valign"></span><i class="fa fa-link"></i></span>
+                    </a>
+                    <div class="description res">
+                      <h2><a href="http://docs.demonsaw.com/FAQ/" target="_blank">FAQ</a></h2>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-6 item">
+                    <a href="https://www.reddit.com/r/demonsaw" target="_blank" class="image">
+                      <img src="img/pnReddit.png" alt="Reddit Subreddit">
+                      <span class="overlay"><span class="valign"></span><i class="fa fa-link"></i></span>
+                    </a>
+                    <div class="description res">
+                      <h2><a href="https://www.reddit.com/r/demonsaw" target="_blank">Subreddit</a></h2>
+                    </div>
+                  </div>
+                </div>
+                <h1>Talks</h1>
+                <div class="row masonry-grid">
+                  <div class="col-md-2 col-sm-2 col-xs-6 item">
+                    <a href="https://www.youtube.com/watch?v=fMfQQoHHLBA" target="_blank" class="image">
+                      <img src="img/defcon22.jpg" alt="Def Con 22">
+                      <span class="overlay"><span class="valign"></span><i class="fa fa-youtube"></i></span>
+                    </a>
+                    <div class="description">
+                      <h2><a href="https://www.youtube.com/watch?v=fMfQQoHHLBA" target="_blank">Def Con 22</a></h2>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-6 item">
+                    <a href="https://www.youtube.com/watch?v=lTngMxmymX4" target="_blank" class="image">
+                      <img src="img/defcon23.jpg" alt="Def Con 23">
+                      <span class="overlay"><span class="valign"></span><i class="fa fa-youtube"></i></span>
+                    </a>
+                    <div class="description">
+                      <h2><a href="https://www.youtube.com/watch?v=lTngMxmymX4" target="_blank">Def Con 23</a></h2>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-6 item">
+                    <a href="https://www.youtube.com/watch?v=iwc5dYzey1U" target="_blank" class="image">
+                      <img src="img/hackmiami.jpg" alt="HackMiami 2015">
+                      <span class="overlay"><span class="valign"></span><i class="fa fa-youtube"></i></span>
+                    </a>
+                    <div class="description">
+                      <h2><a href="https://www.youtube.com/watch?v=iwc5dYzey1U" target="_blank">HackMiami 2015</a></h2>
+                    </div>
+                  </div>
+                </div>
+                <h1>Interviews</h1>
+                <div class="row masonry-grid">
+                  <div class="col-md-2 col-sm-2 col-xs-6 item">
+                    <a href="https://www.youtube.com/watch?v=jGLpvIqU07Y" target="_blank" class="image">
+                      <img src="img/hak5.jpg" alt="Hak5">
+                      <span class="overlay"><span class="valign"></span><i class="fa fa-youtube"></i></span>
+                    </a>
+                    <div class="description">
+                      <h2><a href="https://www.youtube.com/watch?v=jGLpvIqU07Y" target="_blank">Hak5</a></h2>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-6 item">
+                    <a href="https://www.youtube.com/watch?v=EwIG43lUuuA" target="_blank" class="image">
+                      <img src="img/popeye.jpg" alt="Live with Popeye">
+                      <span class="overlay"><span class="valign"></span><i class="fa fa-youtube"></i></span>
+                    </a>
+                    <div class="description">
+                      <h2><a href="https://www.youtube.com/watch?v=EwIG43lUuuA" target="_blank">12-10-15</a></h2>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-6 item">
+                    <a href="https://www.youtube.com/watch?v=-MO1Gw1rC9M" target="_blank" class="image">
+                      <img src="img/popeye.jpg" alt="Live with Popeye">
+                      <span class="overlay"><span class="valign"></span><i class="fa fa-youtube"></i></span>
+                    </a>
+                    <div class="description">
+                      <h2><a href="https://www.youtube.com/watch?v=-MO1Gw1rC9M" target="_blank">10-29-15</a></h2>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-6 item">
+                    <a href="https://www.youtube.com/watch?v=VUXaY3gMwww" target="_blank" class="image">
+                      <img src="img/lifeispeople.jpg" alt="Life Is People">
+                      <span class="overlay"><span class="valign"></span><i class="fa fa-youtube"></i></span>
+                    </a>
+                    <div class="description">
+                      <h2><a href="https://www.youtube.com/watch?v=VUXaY3gMwww" target="_blank">Life Is People</a></h2>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-6 item">
+                    <a href="https://greynoi.se/episodes/ep37_m.mp3" target="_blank" class="image">
+                      <img src="img/gr3ynoise.jpg" alt="gr3ynoise">
+                      <span class="overlay"><span class="valign"></span><i class="fa fa-volume-up"></i></span>
+                    </a>
+                    <div class="description">
+                      <h2><a href="https://greynoi.se/episodes/ep37_m.mp3" target="_blank">gr3ynoise</a></h2>
+                    </div>
+                  </div>
+                </div>
+                <h1>Articles</h1>
+                <div class="row masonry-grid">
+                  <div class="col-md-2 col-sm-2 col-xs-6 item">
+                    <a href="http://www.forbes.com/sites/thomasbrewster/2015/08/20/eijah-john-mcafee-and-demonsaw/" target="_blank" class="image">
+                      <img src="img/forbes.jpg" alt="Forbes">
+                      <span class="overlay"><span class="valign"></span><i class="fa fa-paragraph"></i></span>
+                    </a>
+                    <div class="description">
+                      <h2><a href="http://www.forbes.com/sites/thomasbrewster/2015/08/20/eijah-john-mcafee-and-demonsaw/" target="_blank">Forbes</a></h2>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-6 item">
+                    <a href="http://techcrunch.com/2015/08/19/demonsaw-uses-social-cryptography-to-share-files-and-data-anonymously/" target="_blank" class="image">
+                      <img src="img/techcrunch.jpg" alt="TechCrunch">
+                      <span class="overlay"><span class="valign"></span><i class="fa fa-paragraph"></i></span>
+                    </a>
+                    <div class="description">
+                      <h2><a href="http://techcrunch.com/2015/08/19/demonsaw-uses-social-cryptography-to-share-files-and-data-anonymously/" target="_blank">TechCrunch</a></h2>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-6 item">
+                    <a href="https://the-parallax.com/2015/10/13/founder-of-demonsaw-explains-why-we-need-it/" target="_blank" class="image">
+                      <img src="img/parallax.jpg" alt="Parallax">
+                      <span class="overlay"><span class="valign"></span><i class="fa fa-paragraph"></i></span>
+                    </a>
+                    <div class="description">
+                      <h2><a href="https://the-parallax.com/2015/10/13/founder-of-demonsaw-explains-why-we-need-it/" target="_blank">The Parallax</a></h2>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-6 item">
+                    <a href="https://n0where.net/free-cross-platform-information-sharing/" target="_blank" class="image">
+                      <img src="img/cyberpunk.jpg" alt="CyberPunk">
+                      <span class="overlay"><span class="valign"></span><i class="fa fa-paragraph"></i></span>
+                    </a>
+                    <div class="description">
+                      <h2><a href="https://n0where.net/free-cross-platform-information-sharing/" target="_blank">CyberPunk</a></h2>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-6 item">
+                    <a href="http://www.tomsguide.com/us/demonsaw-file-sharing,news-19295.html" target="_blank" class="image">
+                      <img src="img/tomsguide.jpg" alt="Tom's Guide">
+                      <span class="overlay"><span class="valign"></span><i class="fa fa-paragraph"></i></span>
+                    </a>
+                    <div class="description">
+                      <h2><a href="http://www.tomsguide.com/us/demonsaw-file-sharing,news-19295.html" target="_blank">Tom's Guide</a></h2>
+                    </div>
+                  </div>
+                </div>
+                <h1>Reviews</h1>
+                <div class="row masonry-grid">
+                  <div class="col-md-2 col-sm-2 col-xs-6 item">
+                    <a href="http://www.softpedia.com/get/Internet/File-Sharing/Demonsaw.shtml" target="_blank" class="image">
+                      <img src="img/softpedia.jpg" alt="Softpedia">
+                      <span class="overlay"><span class="valign"></span><i class="fa fa-info"></i></span>
+                    </a>
+                    <div class="description">
+                      <h2><a href="http://www.softpedia.com/get/Internet/File-Sharing/Demonsaw.shtml" target="_blank">Softpedia</a></h2>
+                    </div>
+                  </div>
+                </div>
+                <h1>Tutorials</h1>
+                <div class="row masonry-grid">
+                  <div class="col-md-2 col-sm-2 col-xs-6 item">
+                    <a href="https://www.youtube.com/watch?v=7cLnmpwmMuU" target="_blank" class="image">
+                      <img src="img/d1gg3r.jpg" alt="D1gg3r">
+                      <span class="overlay"><span class="valign"></span><i class="fa fa-youtube"></i></span>
+                    </a>
+                    <div class="description">
+                      <h2><a href="https://www.youtube.com/watch?v=7cLnmpwmMuU" target="_blank">D1gg3r</a></h2>
+                      <p>Introduction to demonsaw client</p>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-2 col-xs-6 item">
+                    <a href="https://www.youtube.com/watch?v=oimu2mO1KUg" target="_blank" class="image">
+                      <img src="img/sethwahle.jpg" alt="Seth Wahle">
+                      <span class="overlay"><span class="valign"></span><i class="fa fa-youtube"></i></span>
+                    </a>
+                    <div class="description">
+                      <h2><a href="https://www.youtube.com/watch?v=oimu2mO1KUg" target="_blank">Seth Wahle</a></h2>
+                      <p>demonsaw router (Linux-CLI)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 mix about" style="margin-top:0px;">
+              <div class="row">
+                <h1 style="margin-top:10px;">Why Demonsaw?</h1>
+                <p>Demonsaw was created to free us from the oppression of governments and corporations who are committed to destroying our privacy. They have no right to our secrets and it's time we do something to take back control. Legislation like CISA is only effective if we continue to store our information on somebody else's servers. Demonsaw only stores your information on your computer. By doing this, Demonsaw gives you full control of whatever you share and say online.</p> <p>Take back control. Believe in the Right to Share.</p>
+              </div>
+              <div class="row">
+                <h1>The Demonsaw Promise</h1>
+                <p>No ads, no installs, no malware, no honeypots, no bundled software, no logging, no tracking, no lies, and no bullshit.</p>
+              </div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <h1>Meet the Team</h1>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12" style="clear:both;">
+                  <div class="col-md-4 col-sm-4 col-xs-12 left devs">
+                    <h2>Eijah</h2>
+                    <h3 class="italic">Founder</h3>
+                    <div class="portrait">
+                      <img src="img/eijah.jpg" alt="Eric J. Anderson">
+                    </div>
+                    <p>Eric J. Anderson "Eijah" is a C++ programmer by day and a hacker by night. Most recently he was a Senior Programmer at Rockstar Games where he created GTAV and Max Payne 3. <sub><b>Mark 5:6-9</b></sub></p>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12 right devs">
+                    <h2>Wahz</h2>
+                    <h3 class="italic">Demonbucket</h3>
+                    <div class="portrait">
+                      <img src="img/seth.jpg" alt="Seth Wahle">
+                    </div>
+                    <p>Seth Wahle "Wahz" is a maker. He specializes in hardware hacking and network infrastructure. He's the creator of Demonbucket, the largest public demonsaw community.</p>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12 right devs">
+                    <h2>You!</h2>
+                    <h3 class="italic">Community Member</h3>
+                    <div class="portrait">
+                      <img src="img/logo_1024.png" alt="community">
+                    </div>
+                    <p>Without you there would be no demonsaw. Your passion, support, feedback, and love make demonsaw what it is today. You truly inspire us to continue the fight. Thank you!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 mix feedback" style="margin-top:0px;">
+              <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 leftIt">
+                  <h2 style="margin-top:10px;"><a href="http://techcrunch.com/2015/08/19/demonsaw-uses-social-cryptography-to-share-files-and-data-anonymously/" target="_blank" class="feedbackLink">TechCrunch<sup><i class="fa fa-link fa-sm"></i></sup></a></h2>
+                  <p>Demonsaw makes security easy for the individual. It empowers them, allowing them to control their own information and set up their own security as they deem necessary. There are no third parties involved in the transfer of messages or data. There’s no logging, no tracking, no installs, etc. Demonsaw is totally free and ad-free too.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12 leftIt">
+                  <h2><a href="http://www.forbes.com/sites/thomasbrewster/2015/08/20/eijah-john-mcafee-and-demonsaw/" target="_blank" class="feedbackLink">Forbes<sup><i class="fa fa-link fa-sm"></i></sup></a></h2>
+                  <p>It’s the personalities behind Demonsaw that make it something of a curio ... Could this be the next Napster? The next Megaupload? With time and testing, it might.</p>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 leftIt">
+                  <h2><a href="https://the-parallax.com/2015/10/13/founder-of-demonsaw-explains-why-we-need-it/" target="_blank" class="feedbackLink">The Parallax<sup><i class="fa fa-link fa-sm"></i></sup></a></h2>
+                  <p>Demonsaw’s “key” is based on hard-to-guess, easy-to-know personal facts. And because it’s decentralized—there’s no central computer server that hosts all your data, unlike services such as Facebook and Google and Dropbox—Demonsaw has no control over what data you send through it.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12 leftIt">
+                  <h2><a href="http://www.tomsguide.com/us/demonsaw-file-sharing,news-19295.html" target="_blank" class="feedbackLink">Tom's Guide<sup><i class="fa fa-link fa-sm"></i></sup></a></h2>
+                  <p>Demonsaw is free, encrypted and self-hosted. People who are looking for a secure file-sharing system will want to check this out. </p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 leftIt">
+                  <h2>Tape</h2>
+                  <p>I can see this being the front-runner of new wave of applications based around security and privacy. It's definitely not the first to do it, I know that much, but I believe this has the most potential and I am extremely excited to be a part of it.</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 leftIt">
+                  <h2>Phage</h2>
+                  <p>Demonsaw is a PowerShifter!! in the Fight against surveillance forcing change in the ability to communicate freely, Breaking free From the gears of the machine. </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-12 leftIt">
+                  <h2>Anonymous</h2>
+                  <p>Demonsaw keeps your conversations and shares secure and discreet from prying eyes. The way the web was always meant to be.</p>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12 leftIt">
+                  <h2>Havatra</h2>
+                  <p>I can't think of any other application that makes data-transferring this private and simple.</p>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12 leftIt">
+                  <h2>UPgrayedd</h2>
+                  <p>I use demonsaw to securely share schematics &amp; contracts with my coworkers around the globe. Just because we are a small company does not mean we have to sacrifice security.</p>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12 leftIt">
+                  <h2>K3</h2>
+                  <p>I think Demonsaw has really set the bar for what a fully immersive private information-sharing experience can be.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-12 leftIt">
+                  <h2>Chuds</h2>
+                  <p>As easy as 1, 2, &lt;encrypted&gt;  </p>
+                </div>
+                <div class="col-md-9 col-sm-9 col-xs-12 leftIt">
+                  <h2>Lightning</h2>
+                  <p>The thing that I really love about demonsaw is that it gives total control of data privacy to its users in a very accessible way. With Demonsaw we can easily communicate and share data with friends, family, and colleagues without fear of theft or snooping. We no longer have to rely on untrustworthy faceless corporate entities to keep our internet data safe and private.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="section">
+      <div class="container">
+        <div class="row">
+          <div id="footerElem1">
+            <p>
+              © Copyright 2014-2016 Demonsaw, LLC. All Rights Reserved.
+              <!--Why do I have the feeling of a pirate lurking in the code?-->
+              <!--      This is not the easter egg you're looking for       -->
+            </p>
+          </div>
+          <div id="footerElem2">
+            <div class="social-media">
+              <a data-original-title="Twitter" href="https://www.twitter.com/demon_saw" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a data-original-title="YouTube" href="https://www.youtube.com/watch?v=fMfQQoHHLBA" target="_blank"><i class="fa fa-youtube"></i></a>
+              <a data-original-title="LinkedIn" href="https://www.linkedin.com/pub/eijah-demonsaw/b7/577/8a8" target="_blank"><i class="fa fa-linkedin"></i></a>
+              <a data-original-title="Google+" href="https://plus.google.com/116739212544198980445" target="_blank"><i class="fa fa-google-plus"></i></a>
+              <a data-original-title="Github" href="https://github.com/eijah/demonsaw" target="_blank"><i class="fa fa-github"></i></a>
+              <a data-original-title="Reddit" href="https://reddit.com/r/demonsaw" target="_blank"><i class="fa fa-reddit"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/jquery.mixitup.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/lightbox.js"></script>
+</body>
+</html>
