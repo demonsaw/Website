@@ -1,10 +1,12 @@
 *.log
-analytics/
-download/
+[Aa]nalytics/
+[Dd]ownload/
 .backups/
 /.htaccess
 /license.txt
+/LICENSE.txt
 /readme.html
+/README.md
 /sitemap.xml
 /sitemap.xml.gz
 
