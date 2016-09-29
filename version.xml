@@ -1,10 +1,16 @@
 <?xml version="1.0"?>
 <versions>
   <gloversion>2.7.2</gloversion>
-  <winversion>2.7.2</winversion>
+  <winversion>3.0.5</winversion>
+  <debversion>3.0.5</debversion>
+  <nixversion>3.0.5</debversion>
   <ubuversion>2.7.2</ubuversion>
-  <debversion>2.7.2</debversion>
   <osxversion>2.7.1</osxversion>
   <rpiversion>2.6.2</rpiversion>
   <andversion>2.7.2</andversion>
+  <rpilegacy>2.6.2</rpilegacy>
+  <winlegacy>2.7.2</winlegacy>
+  <ubulegacy>2.7.2</ubuversion>
+  <deblegacy>2.7.2</debversion>
+  <osxlegacy>2.7.1</osxversion>
 </versions>

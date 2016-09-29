@@ -498,7 +498,7 @@ a:hover {
 
 .winX .image img{margin-top:9px;}
 
-.ubuVersion, .debVersion, .osxVersion, .gloVersion, .andVersion, .winVersion, .rpiVersion{font-weight: bold;}
+.ubuVersion, .debVersion, .osxVersion, .gloVersion, .andVersion, .winVersion, .nixVersion, .rpiVersion, .winLegacy, .debLegacy, .ubuLegacy, .osxLegacy, .legacy{font-weight: bold;}
 
 .tehVersion{padding:10px;float:right;}
 
@@ -543,7 +543,7 @@ a:hover {
 
 .utubeItem{padding:0px 20px;text-align:center;}
 
-.galDl{width:16.667%}
+.galDl{width:20%}
 
 i.itsCS{font-size:20px!important;}
 
