@@ -454,7 +454,6 @@ a:hover {
 }
 
 .downloadStuff{
-  float:left;
   width:100%;
 }
 
@@ -498,8 +497,8 @@ a:hover {
 
 .winX .image img{margin-top:9px;}
 
-.ubuVersion, .debVersion, .osxVersion, .gloVersion, .andVersion, .winVersion, .nixVersion, .rpiVersion, .winLegacy, .debLegacy, .ubuLegacy, .osxLegacy, .legacy{font-weight: bold;}
-
+.ubuVersion, .debVersion, .osxVersion, .gloVersion, .andVersion, .winVersion, .nixVersion, .rpiVersion, .winLegacy, .debLegacy, .ubuLegacy, .osxLegacy, .andLegacy, .rpiLegacy{font-weight: bold;}
+.legacySpacer {clear:both;}
 .tehVersion{padding:10px;float:right;}
 
 .content{

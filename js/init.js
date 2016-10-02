@@ -139,12 +139,21 @@ var xml = request.responseXML;
 var gloVers = xml.getElementsByTagName("gloversion")[0].innerHTML;
 var winVers = xml.getElementsByTagName("winversion")[0].innerHTML;
 var ubuVers = xml.getElementsByTagName("ubuversion")[0].innerHTML;
+var nixVers = xml.getElementsByTagName("nixversion")[0].innerHTML;
 var debVers = xml.getElementsByTagName("debversion")[0].innerHTML;
 var osxVers = xml.getElementsByTagName("osxversion")[0].innerHTML;
 var rpiVers = xml.getElementsByTagName("rpiversion")[0].innerHTML;
 var andVers = xml.getElementsByTagName("andversion")[0].innerHTML;
+var winLegacy = xml.getElementsByTagName("winlegacy")[0].innerHTML;
+var debLegacy = xml.getElementsByTagName("deblegacy")[0].innerHTML;
+var ubuLegacy = xml.getElementsByTagName("ubulegacy")[0].innerHTML;
+var rpiLegacy = xml.getElementsByTagName("rpilegacy")[0].innerHTML;
+var andLegacy = xml.getElementsByTagName("andlegacy")[0].innerHTML;
 for (var i = 0; i < document.getElementsByClassName("winVersion").length; i++){
 	document.getElementsByClassName("winVersion")[i].innerHTML = winVers;
+}
+for (var i = 0; i < document.getElementsByClassName("nixVersion").length; i++){
+	document.getElementsByClassName("nixVersion")[i].innerHTML = nixVers;
 }
 for (var i = 0; i < document.getElementsByClassName("ubuVersion").length; i++){
 	document.getElementsByClassName("ubuVersion")[i].innerHTML = ubuVers;
@@ -160,6 +169,24 @@ for (var i = 0; i < document.getElementsByClassName("rpiVersion").length; i++){
 }
 for (var i = 0; i < document.getElementsByClassName("andVersion").length; i++){
 	document.getElementsByClassName("andVersion")[i].innerHTML = andVers;
+}
+for (var i = 0; i < document.getElementsByClassName("winLegacy").length; i++){
+	document.getElementsByClassName("winLegacy")[i].innerHTML = winLegacy;
+}
+for (var i = 0; i < document.getElementsByClassName("ubuLegacy").length; i++){
+	document.getElementsByClassName("ubuLegacy")[i].innerHTML = ubuLegacy;
+}
+for (var i = 0; i < document.getElementsByClassName("debLegacy").length; i++){
+	document.getElementsByClassName("debLegacy")[i].innerHTML = debLegacy;
+}
+for (var i = 0; i < document.getElementsByClassName("osxLegacy").length; i++){
+	document.getElementsByClassName("osxLegacy")[i].innerHTML = osxLegacy;
+}
+for (var i = 0; i < document.getElementsByClassName("rpiLegacy").length; i++){
+	document.getElementsByClassName("rpiLegacy")[i].innerHTML = rpiLegacy;
+}
+for (var i = 0; i < document.getElementsByClassName("andLegacy").length; i++){
+	document.getElementsByClassName("andLegacy")[i].innerHTML = andLegacy;
 }
 for (var i = 0; i < document.getElementsByClassName("gloVersion").length; i++){
 	document.getElementsByClassName("gloVersion")[i].innerHTML = gloVers;
